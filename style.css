@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: skyblue;
+}
+
+nav{
+    background-color:skyblue;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    font-size: 20px;
+}
+
+nav ul{
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly; 
+    list-style-type: none;;
+}
+
+nav a{
+    text-decoration:none;
+    color: black;
+}
+
+label{
+    display:block;
+    margin-top:5px;
+}
+
+#home{
+    background-color: cornflowerblue;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact{
+    background-color: CornflowerBlue;
+}
+
+.contactgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.info{
+    padding-top: 10px;
+}
+
+.projectflex {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projectflex_item {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    grid-template-columns: 1fr;
+    border: solid black;
+    padding: 10%;
+    margin: 2%;
+}
